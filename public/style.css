@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(76, 15, 94);
+}
+
+.game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(46, 9, 57);
+    padding: 50px;
+    width: 60vw;
+    height: 80vh;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+h2 {
+    color: goldenrod;
+
+}
+
+#tip {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgb(76, 15, 94);
+    color: white;
+}
+
+button {
+    background-color: black;
+    color: goldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#question {
+    background-color: rgb(76, 15, 94);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+
+}

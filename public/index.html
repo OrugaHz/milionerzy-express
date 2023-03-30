@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gra Milionerzy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game">
+        <h1>Milionerzy</h1>
+        <h2>Poprawne odpowiedzi: <span id="good-answers">0</span></h2>
+        <div id="game-board">
+
+            <h3>Twoje koła ratunkowe:</h3>
+            <button id="callToAFriend">Telefon do przyjaciela</button>
+            <button id="halfOnHalf">Poł na pół</button>
+            <button id="questionToTheCrowd">Pytanie do publiczności</button>
+            <div id="tip"></div>
+
+            <h3>Pytanie:</h3>
+            <div id="question"></div>
+            <h3>Wybierz jedną odpowiedź:</h3>
+            <button class="answer-btn" id="answer1" data-answer="0"></button>
+            <button class="answer-btn" id="answer2" data-answer="1"></button>
+            <button class="answer-btn" id="answer3" data-answer="2"></button>
+            <button class="answer-btn" id="answer4" data-answer="3"></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
